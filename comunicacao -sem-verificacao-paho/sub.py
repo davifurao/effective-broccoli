@@ -2,11 +2,12 @@
 import paho.mqtt.client as mqtt
 
 
-HOST= "mqtt.eclipseprojects.io"
+HOST= "test.mosquitto.org"
 PORT=1883
 keepalive=60
 bind_address=""
 TOPIC=[("teste",0)]#tupla com tópico e QoS. Pode-se adicionar diversos tópicos 
+#TOPIC= "teste"
 
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))

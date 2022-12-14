@@ -2,15 +2,25 @@ import paho.mqtt.client as mqtt
 import time
 import random
 
+BROKER="test.mosquitto.org"
+PORT=1883
+KEEPALIVE=60
+TOPIC="teste"
+inicio_random=0
+fim_random=30
+time_sleep_pub=1
+
 #Publisher
 client = mqtt.Client()
-client.connect("127.0.0.1", 1883, 60)
+client.connect(BROKER, PORT, KEEPALIVE)
 client.loop_start()
-client.publish("topic/test", random.randint(0,30))
-time.sleep(2)  # import time
+#time.sleep(2)  # import time
+#client.loop_forever()
 try:
     while True:
-        pass
+        msg=random.randint(inicio_random,fim_random) #para o random entrar no loop
+        client.publish(TOPIC, msg)
+        time.sleep(time_sleep_pub)
 except KeyboardInterrupt:
     print("\nSaindo")
     client.disconnect()
