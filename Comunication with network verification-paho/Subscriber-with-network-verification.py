@@ -27,7 +27,7 @@ Connected = False
 def on_message(client, userdata, msg):
     for i in range(len(TOPIC)):
         if ((msg.topic,msg.qos)==TOPIC[i]):#comparação do tópico(tupla de tópico e Qos) da mensagem com o tópico(tupla) da variável TOPIC
-            with open(f'{TOPIC[i]}.txt','at') as f:#instanciou a variavel f para abrir/criar o arquivo com o nome do tópico(ou qualquer outro que tenha alterado)
+            with open(f'{TOPIC[i]}.csv','at') as f:#instanciou a variavel f para abrir/criar o arquivo com o nome do tópico(ou qualquer outro que tenha alterado)
                 f.write(f'{str(msg.payload)}\n') 
                 f.close() 
         
