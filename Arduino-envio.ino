@@ -1,5 +1,30 @@
 
-
+//=========================================================================================================================================================//
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//===================================================================================================================================================//
 //Biblioteca do Medidor de Corrente
 #include "EmonLib.h"
 //Biblioteca do mosquitto
@@ -160,3 +185,37 @@ void callback(char *topic, byte *payload, unsigned int length) {
 
 
 //https://www.filipeflop.com/blog/medidor-de-energia-eletrica-com-arduino/
+
+
+
+
+
+
+
+
+//=========================================================================================================================================================//
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//CÓDIGO DESATUALIZADO
+//===================================================================================================================================================//
