@@ -5,7 +5,7 @@ if ! command -v pip &> /dev/null
 then
     echo "pip não está instalado. Instalando..."
     sudo apt-get update
-    sudo apt-get install python-pip -y
+    sudo apt-get install python3-pip -y
 fi
 
 # Verifica se o pacote paho-mqtt está instalado
